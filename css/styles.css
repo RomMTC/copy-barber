@@ -1,0 +1,127 @@
+/* p {
+  width: 200px;
+  height: 200px;
+
+  margin: 30px;
+  padding: 10px;
+  border: 10px solid black;
+
+  background-color: blueviolet;
+}
+
+.text-1 {
+  margin: 30px;
+}
+
+.text-2 {
+  margin: 0;
+  margin-top: 70px;
+}
+
+a {
+  display: block;
+  width: 150px;
+  padding: 20px;
+  border: 5px solid aqua;
+}
+
+button {
+  padding: 20px 0;
+
+  border-radius: 50%;
+} */
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  width: 250px;
+  padding: 50px;
+
+  border: 2px dashed red;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 235, 111);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  max-width: 250px;
+  min-width: 160px;
+  padding: 12px 20px;
+  border: 1px solid red;
+  background-color: transparent;
+  border-radius: 16px;
+}
+
+/* .item:first-child {
+  background-color: aqua;
+} */
+
+/* an + b */
+/*
+a - произвольное число
+b - произвольное число
+n - счетчик / итератор 0 to infinity
+*/
+
+/* 2 * 0 = 0
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+
+2 * 0 + 3 = 3
+2 * 1 + 3 = 5
+2 * 2 + 3 = 7
+*/
+
+/* .item {
+  background-color: blueviolet;
+} */
+
+/* .item:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 20px;
+} */
+
+.list.item {
+  background-color: tomato;
+}
+
+.list .item {
+  background-color: blueviolet;
+
+}
+
+/* .item:last-child {
+  background-color: aqua;
+} */
